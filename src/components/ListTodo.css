@@ -1,0 +1,41 @@
+.list-container {
+  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.task-list{
+  border: 2px solid wheat;
+  border-radius: 8px;
+  margin: 5%;
+  color: wheat;
+  font-weight: bold;
+  height: 35px;
+  padding: 3px;
+}
+
+.delete-button {
+  display: block;
+  font-size: 11px;
+  font-weight: bolder;
+  height: 25px;
+  float: right;
+  background-color: rgb(148, 98, 98);
+  border-radius: 5px;
+  border: none;
+}
+
+.done-button  {
+  display: block;
+  font-size: 11px;
+  font-weight: bolder;
+  height: 25px;
+  float: right;
+  background-color: rgb(148, 98, 98);
+  border-radius: 5px;
+  border: none;
+  width: 50px;
+  margin-right: 2px;
+}
+
+

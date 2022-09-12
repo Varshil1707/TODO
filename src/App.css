@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  display: flex;
+  background-color: antiquewhite;
+  color: rgb(204, 162, 162);
+  flex-direction: column;
+  align-items: center;
+}
+
+

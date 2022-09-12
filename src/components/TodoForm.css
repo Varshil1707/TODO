@@ -1,0 +1,58 @@
+.heading-text {
+  background-color: rgb(88, 70, 36);
+  font-size: 42px;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+}
+
+.task-container {
+  display: flex;
+  height: 100%;
+  max-height: 70vh;
+  background-color: rgb(88, 70, 36);
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 50px;
+  padding: 50px;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 30px 20px;
+  min-height: 200px;
+  color: white;
+}
+
+.text-input {
+  border: 2px solid wheat;
+  border-radius: 6px;
+  padding: 2px;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 2px 2px;
+}
+
+.add-button {
+  border: 2px solid wheat;
+  border-radius: 6px;
+  background-color: rgb(166, 150, 129);
+  padding: 2px 2px;
+  margin: 2px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.no-task-added-text {
+  color: rgb(218, 144, 47);
+  font-weight: bold;
+  margin: 35px;
+  font-size: 19px;
+  text-align: center;
+}
+
